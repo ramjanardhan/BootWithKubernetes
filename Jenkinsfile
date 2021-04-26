@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "janardhan54/boot-with-k8s"
+    registry = "foundational/boot-with-k8s"
     registryCredential = 'docker-details'
     dockerImage = ''
   }
