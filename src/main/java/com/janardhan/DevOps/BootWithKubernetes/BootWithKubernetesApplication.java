@@ -16,7 +16,7 @@ public class BootWithKubernetesApplication {
 	@RequestMapping("/")
 	public String message() 
 	{
-		return "Hello Boot Welcome To Kubernetes Integrated By Jenkins & Git-Hub";
+		return "Hello Boot Welcome To Kubernetes Integrated By Jenkins && Git-Hub";
 	}
 
 }
